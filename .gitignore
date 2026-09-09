@@ -1,2 +1,9 @@
-
 .DS_Store
+.idea/
+*.iml
+*.class
+out/
+build/
+target/
+__pycache__/
+*.py[cod]
