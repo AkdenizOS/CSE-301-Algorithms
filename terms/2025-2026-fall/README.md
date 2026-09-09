@@ -54,9 +54,5 @@ The shared plan in [`weeks/`](../../weeks/) is derived from this outline.
 | `biweekly-contest/` | Contest problem statements |
 | `exercises/` | Standalone exercises |
 
-### `unattributed/`
-
-Pages 1-2 of a graded final answer sheet. The paper is headed *Algorithms, Fall
-2025 Final Exam, 30/12/2025, 115 minutes*; the name on it is obscured in the
-photograph, so it is not filed under anyone. Page 1 is "Mario's Chick Rescue
-Detours" (DP), page 2 is "Company Hiring Split" (DP + greedy).
+The graded final answer sheet from this term is filed with the other exam papers,
+in [`exams/past/2025-2026/`](../../exams/past/2025-2026/).
