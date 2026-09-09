@@ -36,13 +36,27 @@ Slides, announcements and homework were distributed through Microsoft Teams.
 
 The shared plan in [`weeks/`](../../weeks/) is derived from this outline.
 
+## Who took it
+
+| Person | What is here |
+|--------|-------------|
+| [efe-kurucay](people/efe-kurucay/) | One assignment, done with Burak Yalçın |
+
 ## Contents
+
+### `course/` — issued by the instructor, same for everyone
 
 | Folder | What it is |
 |--------|-----------|
-| `slides/` | 12 lecture decks plus `dp_examples.pdf`. `excluded-from-2025-final/` holds lecture08 and lecture09, which were dropped from the final's scope. |
+| `syllabus.pdf` | The official Fall 2025 syllabus |
+| `slides/` | 12 lecture decks plus `dp_examples.pdf`. `excluded-from-2025-final/` holds lecture08 and lecture09, dropped from the final's scope |
 | `labs/` | Lab questions by group (1-4) and week, plus `pre-lab-exercises/` |
 | `biweekly-contest/` | Contest problem statements |
-| `assignments/` | `assignment-kurucay-yalcin.pdf` — Yahya Efe Kuruçay and Burak Yalçın |
-| `syllabus.pdf` | The official Fall 2025 syllabus |
-| `exams/` | A graded final answer sheet, pages 1-2. The paper is headed *Algorithms, Fall 2025 Final Exam, 30/12/2025, 115 minutes*; the name on it is obscured in the photograph. Page 1 is "Mario's Chick Rescue Detours" (DP), page 2 is "Company Hiring Split" (DP + greedy) |
+| `exercises/` | Standalone exercises |
+
+### `unattributed/`
+
+Pages 1-2 of a graded final answer sheet. The paper is headed *Algorithms, Fall
+2025 Final Exam, 30/12/2025, 115 minutes*; the name on it is obscured in the
+photograph, so it is not filed under anyone. Page 1 is "Mario's Chick Rescue
+Detours" (DP), page 2 is "Company Hiring Split" (DP + greedy).

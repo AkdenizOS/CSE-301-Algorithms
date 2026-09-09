@@ -2,15 +2,12 @@
 
 Instructor unknown.
 
-## Contents
+## Who took it
 
-`submissions/` holds two students' graded exam papers from that cohort:
-
-| File | Student |
-|------|---------|
-| `midterm-altungoz.pdf` | Berkcan Altungöz |
-| `final-altungoz.pdf` | Berkcan Altungöz |
-| `final-karababa.pdf` | Mert Karababa |
+| Person | What is here |
+|--------|-------------|
+| [berkcan-altungoz](people/berkcan-altungoz/) | Graded midterm and final answer papers |
+| [mert-karababa](people/mert-karababa/) | Graded final answer paper |
 
 These are answer papers, not official solution keys — read them as one person's
 attempt. The blank exam papers for this term are in

@@ -17,8 +17,8 @@ the year could not be established, it is in [`undated/`](undated/).
 |------|-----------|
 | [`../practice/`](../practice/) | Practice quizzes, finals and examples with solutions — not real papers |
 | [`../prep/`](../prep/) | Compiled analyses and exam-preparation notes written by previous students |
-| [`../../terms/2020-2021-fall/submissions/`](../../terms/2020-2021-fall/submissions/) | Two students' **answered** midterm and final papers |
-| [`../../terms/2025-2026-fall/exams/`](../../terms/2025-2026-fall/exams/) | A graded Fall 2025 final answer sheet (30/12/2025), pages 1-2 |
+| [`../../terms/2020-2021-fall/people/`](../../terms/2020-2021-fall/people/) | Two students' **answered** midterm and final papers |
+| [`../../terms/2025-2026-fall/unattributed/`](../../terms/2025-2026-fall/unattributed/) | A graded Fall 2025 final answer sheet (30/12/2025), pages 1-2 — the name on it is obscured |
 | [`../../resources/bilkent/`](../../resources/bilkent/) | Bilkent CS473 exams — harder than this course, good stretch practice |
 
 ## Adding a paper
