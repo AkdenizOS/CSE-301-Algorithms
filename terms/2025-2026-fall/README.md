@@ -45,3 +45,4 @@ The shared plan in [`weeks/`](../../weeks/) is derived from this outline.
 | `biweekly-contest/` | Contest problem statements |
 | `assignments/` | `assignment-kurucay-yalcin.pdf` — Yahya Efe Kuruçay and Burak Yalçın |
 | `syllabus.pdf` | The official Fall 2025 syllabus |
+| `exams/` | A graded final answer sheet, pages 1-2. The paper is headed *Algorithms, Fall 2025 Final Exam, 30/12/2025, 115 minutes*; the name on it is obscured in the photograph. Page 1 is "Mario's Chick Rescue Detours" (DP), page 2 is "Company Hiring Split" (DP + greedy) |
