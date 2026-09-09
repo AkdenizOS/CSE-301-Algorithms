@@ -1,6 +1,6 @@
 # Week 12 — Graphs I
 
-> Fall 2025 outline: *Graphs*
+> Topic: *Graphs*
 
 **Previous:** [Week 11](11-greedy-algorithms.md) · **Next:** [Week 13](13-graphs-ii.md)
 
@@ -29,12 +29,7 @@
 - [ ] Textbook section read
 - [ ] Exercises done
 
-## My notes
+---
 
-<!-- Lecture: what was actually covered. -->
-
-<!-- Worked derivations and proofs. -->
-
-<!-- Questions to ask. -->
-
-<!-- Exam-worthy: complexities, proof templates, pitfalls. -->
+Your own notes for this week go in `terms/<your-term>/notes/week-12.md`, not here.
+This file is the shared plan — improve it if the course changes, but keep it general.

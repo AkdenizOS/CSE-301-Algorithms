@@ -1,6 +1,6 @@
 # Week 7 — No Lecture — Cumhuriyet Bayramı
 
-> Fall 2025 outline: *Cumhuriyet Bayramı*
+> Topic: *Cumhuriyet Bayramı*
 
 **Previous:** [Week 6](06-medians-and-order-statistics.md) · **Next:** [Week 8](08-midterm-week.md)
 
@@ -20,12 +20,7 @@
 - [ ] Textbook section read
 - [ ] Exercises done
 
-## My notes
+---
 
-<!-- Lecture: what was actually covered. -->
-
-<!-- Worked derivations and proofs. -->
-
-<!-- Questions to ask. -->
-
-<!-- Exam-worthy: complexities, proof templates, pitfalls. -->
+Your own notes for this week go in `terms/<your-term>/notes/week-07.md`, not here.
+This file is the shared plan — improve it if the course changes, but keep it general.

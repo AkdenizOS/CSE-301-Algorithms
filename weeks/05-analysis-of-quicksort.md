@@ -1,6 +1,6 @@
 # Week 5 — Analysis of Quicksort
 
-> Fall 2025 outline: *Analysis of Quicksort*
+> Topic: *Analysis of Quicksort*
 
 **Previous:** [Week 4](04-quicksort.md) · **Next:** [Week 6](06-medians-and-order-statistics.md)
 
@@ -30,12 +30,7 @@
 - [ ] Textbook section read
 - [ ] Exercises done
 
-## My notes
+---
 
-<!-- Lecture: what was actually covered. -->
-
-<!-- Worked derivations and proofs. -->
-
-<!-- Questions to ask. -->
-
-<!-- Exam-worthy: complexities, proof templates, pitfalls. -->
+Your own notes for this week go in `terms/<your-term>/notes/week-05.md`, not here.
+This file is the shared plan — improve it if the course changes, but keep it general.

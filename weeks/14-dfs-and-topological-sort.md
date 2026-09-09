@@ -1,6 +1,6 @@
 # Week 14 — DFS and Topological Sort
 
-> Fall 2025 outline: *DFS & Topological sort*
+> Topic: *DFS & Topological sort*
 
 **Previous:** [Week 13](13-graphs-ii.md)
 
@@ -31,12 +31,7 @@
 - [ ] Textbook section read
 - [ ] Exercises done
 
-## My notes
+---
 
-<!-- Lecture: what was actually covered. -->
-
-<!-- Worked derivations and proofs. -->
-
-<!-- Questions to ask. -->
-
-<!-- Exam-worthy: complexities, proof templates, pitfalls. -->
+Your own notes for this week go in `terms/<your-term>/notes/week-14.md`, not here.
+This file is the shared plan — improve it if the course changes, but keep it general.

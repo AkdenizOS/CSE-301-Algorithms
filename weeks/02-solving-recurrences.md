@@ -1,6 +1,6 @@
 # Week 2 — Solving Recurrences
 
-> Fall 2025 outline: *Solving Recurrences*
+> Topic: *Solving Recurrences*
 
 **Previous:** [Week 1](01-analysing-and-designing-algorithms.md) · **Next:** [Week 3](03-divide-and-conquer.md)
 
@@ -30,12 +30,7 @@
 - [ ] Textbook section read
 - [ ] Exercises done
 
-## My notes
+---
 
-<!-- Lecture: what was actually covered. -->
-
-<!-- Worked derivations and proofs. -->
-
-<!-- Questions to ask. -->
-
-<!-- Exam-worthy: complexities, proof templates, pitfalls. -->
+Your own notes for this week go in `terms/<your-term>/notes/week-02.md`, not here.
+This file is the shared plan — improve it if the course changes, but keep it general.

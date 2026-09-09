@@ -1,6 +1,6 @@
 # Week 3 — Divide and Conquer Design Paradigm
 
-> Fall 2025 outline: *Divide and Conquer Design Paradigm*
+> Topic: *Divide and Conquer Design Paradigm*
 
 **Previous:** [Week 2](02-solving-recurrences.md) · **Next:** [Week 4](04-quicksort.md)
 
@@ -30,12 +30,7 @@
 - [ ] Textbook section read
 - [ ] Exercises done
 
-## My notes
+---
 
-<!-- Lecture: what was actually covered. -->
-
-<!-- Worked derivations and proofs. -->
-
-<!-- Questions to ask. -->
-
-<!-- Exam-worthy: complexities, proof templates, pitfalls. -->
+Your own notes for this week go in `terms/<your-term>/notes/week-03.md`, not here.
+This file is the shared plan — improve it if the course changes, but keep it general.

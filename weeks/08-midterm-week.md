@@ -1,6 +1,6 @@
 # Week 8 — Midterm Week
 
-> Fall 2025 outline: *Tentative Midterm Week*
+> Topic: *Tentative Midterm Week*
 
 **Previous:** [Week 7](07-holiday.md) · **Next:** [Week 9](09-dynamic-programming-i.md)
 
@@ -19,12 +19,7 @@
 - [ ] Textbook section read
 - [ ] Exercises done
 
-## My notes
+---
 
-<!-- Lecture: what was actually covered. -->
-
-<!-- Worked derivations and proofs. -->
-
-<!-- Questions to ask. -->
-
-<!-- Exam-worthy: complexities, proof templates, pitfalls. -->
+Your own notes for this week go in `terms/<your-term>/notes/week-08.md`, not here.
+This file is the shared plan — improve it if the course changes, but keep it general.

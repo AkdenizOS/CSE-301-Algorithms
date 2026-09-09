@@ -1,6 +1,6 @@
 # Week 6 — Medians and Order Statistics
 
-> Fall 2025 outline: *Medians and Order Statistics*
+> Topic: *Medians and Order Statistics*
 
 **Previous:** [Week 5](05-analysis-of-quicksort.md) · **Next:** [Week 7](07-holiday.md)
 
@@ -30,12 +30,7 @@
 - [ ] Textbook section read
 - [ ] Exercises done
 
-## My notes
+---
 
-<!-- Lecture: what was actually covered. -->
-
-<!-- Worked derivations and proofs. -->
-
-<!-- Questions to ask. -->
-
-<!-- Exam-worthy: complexities, proof templates, pitfalls. -->
+Your own notes for this week go in `terms/<your-term>/notes/week-06.md`, not here.
+This file is the shared plan — improve it if the course changes, but keep it general.

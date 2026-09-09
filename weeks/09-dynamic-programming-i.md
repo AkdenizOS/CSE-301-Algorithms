@@ -1,6 +1,6 @@
 # Week 9 — Dynamic Programming I
 
-> Fall 2025 outline: *Dynamic Programming*
+> Topic: *Dynamic Programming*
 
 **Previous:** [Week 8](08-midterm-week.md) · **Next:** [Week 10](10-dynamic-programming-ii.md)
 
@@ -30,12 +30,7 @@
 - [ ] Textbook section read
 - [ ] Exercises done
 
-## My notes
+---
 
-<!-- Lecture: what was actually covered. -->
-
-<!-- Worked derivations and proofs. -->
-
-<!-- Questions to ask. -->
-
-<!-- Exam-worthy: complexities, proof templates, pitfalls. -->
+Your own notes for this week go in `terms/<your-term>/notes/week-09.md`, not here.
+This file is the shared plan — improve it if the course changes, but keep it general.

@@ -1,6 +1,6 @@
 # Week 1 — Analysing and Designing Algorithms
 
-> Fall 2025 outline: *Introduction: analysing algorithms, designing algorithms*
+> Topic: *Introduction: analysing algorithms, designing algorithms*
 
 **Next:** [Week 2](02-solving-recurrences.md)
 
@@ -32,12 +32,7 @@
 - [ ] Textbook section read
 - [ ] Exercises done
 
-## My notes
+---
 
-<!-- Lecture: what was actually covered. -->
-
-<!-- Worked derivations and proofs. -->
-
-<!-- Questions to ask. -->
-
-<!-- Exam-worthy: complexities, proof templates, pitfalls. -->
+Your own notes for this week go in `terms/<your-term>/notes/week-01.md`, not here.
+This file is the shared plan — improve it if the course changes, but keep it general.

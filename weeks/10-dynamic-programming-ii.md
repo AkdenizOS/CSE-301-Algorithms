@@ -1,6 +1,6 @@
 # Week 10 — Dynamic Programming II
 
-> Fall 2025 outline: *Dynamic Programming*
+> Topic: *Dynamic Programming*
 
 **Previous:** [Week 9](09-dynamic-programming-i.md) · **Next:** [Week 11](11-greedy-algorithms.md)
 
@@ -30,12 +30,7 @@
 - [ ] Textbook section read
 - [ ] Exercises done
 
-## My notes
+---
 
-<!-- Lecture: what was actually covered. -->
-
-<!-- Worked derivations and proofs. -->
-
-<!-- Questions to ask. -->
-
-<!-- Exam-worthy: complexities, proof templates, pitfalls. -->
+Your own notes for this week go in `terms/<your-term>/notes/week-10.md`, not here.
+This file is the shared plan — improve it if the course changes, but keep it general.
