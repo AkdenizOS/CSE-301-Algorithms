@@ -101,9 +101,6 @@ is the shared plan and it should reflect reality. Keep `weeks/` and
 | Fall 2026-2027 | TBD — fill in during week 1 | Schedule TBD · Midterm TBD · Final TBD. Student guide in [resources/2026-2027-fall/](resources/2026-2027-fall/). Efe — notes in every week file. Exam papers from this term go in `exams/2026-2027/`. |
 | undated | unknown | Student submissions, reference homeworks, an analysis assignment and 2023 scans in [assignments/undated-unattributed/](assignments/undated-unattributed/) — see [assignments/README.md](assignments/README.md). One student's week 1 notes are in [weeks/01](weeks/01-analysing-and-designing-algorithms.md#notes--unknown-student-undated). Undated exam paper in [exams/undated/](exams/undated/). |
 
-Fall 2026-2027 grading placeholder: Lab 25% · Assignment 10% · Midterm 25% · Final 40%.
-The student guide gives Labs 45% · Midterm 15% · Final 40%, plus up to 10 attendance
-points added to the final — confirm against the syllabus once it is issued.
 
 ## Textbook
 
@@ -112,16 +109,27 @@ Primary: **CLRS, _Introduction to Algorithms_, 3rd edition** —
 Every reading link in `weeks/` points into it. A Turkish translation and the 4th
 edition are in the same folder, plus Sedgewick-Wayne and Kleinberg-Tardos.
 
-## Grading (Fall 2025)
+## Grading (Fall 2026-2027)
+
+From the instructor's [student guide](resources/2026-2027-fall/Algorithms_Student_Guide.pdf):
 
 | Component | Weight |
 |-----------|--------|
-| Lab | 25% |
-| Assignment | 10% |
-| Midterm | 25% |
+| Labs | 45% |
+| Midterm | 15% |
 | Final | 40% |
+| Attendance bonus | up to +10 points on the final |
 
-Confirm against the current term's syllabus — see [Terms](#terms).
+- Attendance points are earned during the semester; no extra-point requests at the end.
+- Lab rules are announced separately by the TA, Ömer Kuru — required reading.
+- No AI tools in exams.
+- The guide follows the lecture schedule and resources of
+  [Stanford CS161, Winter 2026](https://stanford-cs161.github.io/winter2026/lectures/):
+  pre-lecture exercise, notes and slides, Python notebook, concept checks, readings
+  (CLRS, *Algorithms Illuminated*), recording.
+
+Fall 2025-2026 used Lab 25% · Assignment 10% · Midterm 25% · Final 40% — see
+[course-info.md](course-info.md#fall-2025-2026-as-taught).
 
 The topic list in [`weeks/`](weeks/) is derived from the Fall 2025 course outline
 (the most recent one on record, in

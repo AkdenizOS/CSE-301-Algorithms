@@ -5,7 +5,7 @@
 **Previous:** [Week 7](07-holiday.md) · **Next:** [Week 9](09-dynamic-programming-i.md)
 
 ## Goals
-- Sit the midterm (25%).
+- Sit the midterm (15% in Fall 2026-2027; 25% in Fall 2025).
 
 ## Key concepts
 - Scope in Fall 2025: weeks 1-6 — asymptotics, recurrences, divide and conquer, quicksort, selection.
