@@ -8,13 +8,15 @@ worked implementations in Java and Python, and the coursework of the students wh
 took the course before you.
 
 Anyone taking CSE 301 can study from it. If you take the course, your notes belong
-here too — see [Contributing](#contributing).
+here too — see [Taking notes](#taking-notes).
 
 ## How to study with this repository
 
 **1. Start from the week you are in.** [`weeks/`](weeks/) has one note per week,
 built from the official course outline. Each note lists the goals, the key concepts
-with their actual definitions, what to read, and what to practice.
+with their actual definitions, what to read, and what to practice — and, under
+`## From past terms`, the slides, labs, exam questions and code from earlier years
+that cover the same topic.
 
 **2. Follow the reading links.** They open the textbook at the exact page:
 
@@ -26,36 +28,82 @@ opens the file.
 **3. Do the practice list, then check the box.** The `- [ ]` items are clickable in
 Obsidian's reading mode, so the week note doubles as your progress tracker.
 
-**4. Write in `## My notes` at the bottom of the week note.** That section is yours.
-Everything above it is the shared plan.
+**4. Write under your own `## Notes — <Name> (<term>)` heading at the bottom of the
+week note.** That section is yours. Everything above it is the shared plan.
 
-**5. Before an exam, go to [`exams/`](exams/).** [`exams/past/`](exams/past/) has real
-papers from 2019 onward, organized by term. [`exams/practice/`](exams/practice/) has
+**5. Before an exam, go to [`exams/`](exams/README.md).** It has real papers from
+2019 onward, one folder per academic year. [`exams/practice/`](exams/practice/) has
 practice sets with solutions. [`exams/prep/`](exams/prep/) holds compiled analyses
 written by previous students.
 
 **6. When you get stuck on an implementation**, [`code/`](code/) has working Java and
 Python versions of nearly every algorithm in the course, and
-[`exercises/collections/`](exercises/collections/) has past problems with solutions.
+[`exercises/`](exercises/) has past problems with solutions.
 
 ## Layout
 
-| Path | What it holds | Changes each term? |
-|------|---------------|--------------------|
-| [`weeks/`](weeks/) | The study plan — one note per week | No, it improves |
-| [`docs/`](docs/) | Syllabus summary, resource map, conventions | No, it improves |
-| [`terms/`](terms/) | One folder per cohort: their notes, labs, assignments, submissions | **Yes — a new folder each year** |
-| [`exams/past/`](exams/past/) | Real exam papers by term | Grows |
-| [`exams/practice/`](exams/practice/) | Practice sets and solutions | Grows |
-| [`exams/prep/`](exams/prep/) | Compiled exam analyses | Grows |
-| [`code/`](code/) | Java and Python implementations | Grows |
-| [`exercises/`](exercises/) | Problem collections, case studies | Grows |
-| [`resources/`](resources/) | Textbooks, lecture notes, external material | Grows |
+```
+README.md        This page
+course-info.md   Resource map (CLRS page offsets), Fall 2025-2026 outline, pseudocode convention, glossary
+weeks/NN-*.md    One file per week: the shared plan on top, links to past-term material, everyone's notes below
+exams/           Past papers by academic year (2019-2020 … 2025-2026, undated), practice/ sets, prep/ analyses
+resources/       books/, bilkent/, lecture-notes/, and resources/<term>/ for what an instructor issued that term
+code/            Java and Python implementations (java/, python/)
+exercises/       Named problem collections, the Crazy Eights case study, practice solutions, problem statements
+assignments/     Coursework, one folder per <term>-<person>; see assignments/README.md
+```
 
-The important split: **`weeks/` and `docs/` are shared and permanent. `terms/` is
-where one person's one semester lives.** Your notes this year go under
-`terms/<year>-<term>/`; next year they are the archive somebody else studies from,
-and nothing has to move.
+`code/java/algorithms/` is a buildable project whose packages follow its folder
+layout — do not move files inside it.
+
+## Taking notes
+
+Open the week, scroll to the bottom, write under your own heading:
+
+```markdown
+## Notes — <Name> (<term>)
+### Lecture
+### Worked out by hand
+### Questions
+### Exam-worthy
+```
+
+Add your heading below the existing ones and never edit someone else's section —
+different sections merge in git without conflicts. Everything under your own
+heading is **yours**. The shared plan at the top of the week is not — if the course
+changed, fix it there so the next person gets the corrected version.
+
+## Who changes what
+
+| What | Who edits it | When |
+|------|-------------|------|
+| Top of `weeks/NN-*.md` (goals, reading, practice, from past terms) | **anyone** | Only when the course itself changes — a new topic, a better reading, a correction. Never for personal notes. |
+| `## Notes — <you>` in a week file | **only you** | Every week. This is your notebook. |
+| `course-info.md`, `exams/README.md` | **anyone** | When you learn something durable: a new exam pattern, a better source. |
+| `assignments/<term>-<you>/` | **only you** | Your assignments, projects, submissions. Use a lowercase, hyphenated name — `2026-2027-fall-efe-kurucay`, not `Efe Kuruçay`. Material from a term whose author is not known goes in `assignments/<term>-unattributed/`. |
+| `resources/<term>/` | **anyone in that term** | Slides, syllabus and lab sheets the instructor issued that term — they are the same for everyone taking the course that term. |
+| `exams/<YYYY>-<YYYY>/` | **anyone** | When you get hold of a new paper — blank or answered. Put the writer's surname in the filename (`final-answered-altungoz.pdf`). Exam papers never go under `assignments/`. |
+
+Two students in different years never touch the same file except to improve the
+shared plan — which is the point.
+
+If you take the course in a new term, add a row to the table below naming the
+instructor and the dates, and if the course outline changed, update `weeks/` — that
+is the shared plan and it should reflect reality. Keep `weeks/` and
+`course-info.md` general; keep anything personal, dated or term-specific in
+`assignments/<term>-<you>/` or `resources/<term>/`.
+
+## Terms
+
+| Term | Instructor | What exists |
+|------|-----------|-------------|
+| Fall 2025-2026 | Hüseyin Gökhan Akçay | [resources/2025-2026-fall/](resources/2025-2026-fall/): syllabus, 12 lecture slide decks plus `dp_examples.pdf` (`excluded-from-2025-final/` holds lecture08 and lecture09, dropped from the final's scope), lab questions for 4 groups plus pre-lab exercises, biweekly contest, standalone exercises. Outline and grading in [course-info.md](course-info.md#fall-2025-2026-as-taught). Graded final pages in [exams/2025-2026/](exams/2025-2026/). Efe's contest assignment with Burak Yalçın in [assignments/2025-2026-fall-efe-kurucay/](assignments/2025-2026-fall-efe-kurucay/). |
+| Fall 2026-2027 | TBD — fill in during week 1 | Schedule TBD · Midterm TBD · Final TBD. Student guide in [resources/2026-2027-fall/](resources/2026-2027-fall/). Efe — notes in every week file. Exam papers from this term go in `exams/2026-2027/`. |
+| undated | unknown | Student submissions, reference homeworks, an analysis assignment and 2023 scans in [assignments/undated-unattributed/](assignments/undated-unattributed/) — see [assignments/README.md](assignments/README.md). One student's week 1 notes are in [weeks/01](weeks/01-analysing-and-designing-algorithms.md#notes--unknown-student-undated). Undated exam paper in [exams/undated/](exams/undated/). |
+
+Fall 2026-2027 grading placeholder: Lab 25% · Assignment 10% · Midterm 25% · Final 40%.
+The student guide gives Labs 45% · Midterm 15% · Final 40%, plus up to 10 attendance
+points added to the final — confirm against the syllabus once it is issued.
 
 ## Textbook
 
@@ -73,40 +121,14 @@ edition are in the same folder, plus Sedgewick-Wayne and Kleinberg-Tardos.
 | Midterm | 25% |
 | Final | 40% |
 
-Confirm against the current term's syllabus — see [`terms/`](terms/).
+Confirm against the current term's syllabus — see [Terms](#terms).
 
 The topic list in [`weeks/`](weeks/) is derived from the Fall 2025 course outline
 (the most recent one on record, in
-[`terms/2025-2026-fall/`](terms/2025-2026-fall/)). If your term's outline differs,
-update `weeks/` — it is the shared plan and should reflect reality.
-
-## Who changes what
-
-| File | Who edits it | When |
-|------|-------------|------|
-| `weeks/NN-*.md` | **anyone** | Only when the course itself changes — a new topic, a better reading, a correction. Never for personal notes. |
-| `docs/*.md` | **anyone** | When you learn something durable: a new exam pattern, a better source. |
-| `terms/<your-term>/people/<you>/notes/week-NN.md` | **only you** | Every week. This is your notebook. |
-| `terms/<your-term>/people/<you>/` | **only you** | Your assignments, projects, submissions. |
-| `terms/<your-term>/course/` | **anyone in that term** | Slides, syllabus and lab sheets the instructor issued. |
-| `exams/past/<term>/` | **anyone** | When you get hold of a new paper — blank or answered. Exam papers never go under `terms/`. |
-
-Two students in different years never touch the same file except to improve the
-shared plan — which is the point.
-
-## Contributing
-
-If you are taking the course now:
-
-1. Create `terms/<YYYY>-<YYYY>-<term>/` (e.g. `2026-2027-fall/`) with a `README.md`
-   naming the instructor, the dates, and who the work belongs to.
-2. Put your slides, labs, assignments and personal notes there.
-3. If the course outline changed, update `weeks/` — that is the shared plan and it
-   should reflect reality.
-4. Add new exam papers to `exams/past/<term>/`.
-
-Keep `weeks/` and `docs/` general. Keep anything personal, dated, or term-specific
-in `terms/`.
+[`course-info.md`](course-info.md#fall-2025-2026-as-taught) and
+[`resources/2025-2026-fall/syllabus.pdf`](resources/2025-2026-fall/syllabus.pdf)). If
+your term's outline differs, update `weeks/` — it is the shared plan and should
+reflect reality.
 
 ## Academic integrity
 

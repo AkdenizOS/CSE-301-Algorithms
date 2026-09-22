@@ -32,7 +32,64 @@
 - [ ] Textbook section read
 - [ ] Exercises done
 
+## From past terms
+
+**Slides (2025-2026 Fall)**
+- [Intro.pdf](../resources/2025-2026-fall/slides/Intro.pdf) — course advice and syllabus
+- [lecture01.pdf](../resources/2025-2026-fall/slides/lecture01.pdf) — introduction to analysis of algorithms
+- [lecture02.pdf](../resources/2025-2026-fall/slides/lecture02.pdf) — asymptotic notation
+
+**Labs (2025-2026 Fall)**
+- [Pre-lab week 1](../resources/2025-2026-fall/labs/pre-lab/week-01/) — insertion sort exercise ("The Shifting Sands of Time") with Java solutions
+- [Group 2, week 1](../resources/2025-2026-fall/labs/group-2/week-01/) — "The Chronomancer's Tapestry of Fate", an insertion-sort problem, with solution
+
+**Past exam questions**
+- [2019-2020 Q1.1](../exams/2019-2020/questions-Q1.1.jfif), [Q1.2](../exams/2019-2020/questions-Q1.2.jfif) — O / Θ / o proofs for pairs of functions
+- [Bilkent CS473 — asymptotic analysis](../resources/bilkent/Asymptotic%20Analysis_cs473.final_1.pdf)
+- [Undated midterm practice](../assignments/undated-unattributed/analysis-assignment/AlgorithmsMidtermPractice.pdf) — Q1: insertion sort on a pairwise-swapped array
+
+**Exercises and code**
+- [Analysis assignment](../assignments/undated-unattributed/analysis-assignment/) — theoretical vs. measured complexity of three algorithms, with graphs
+- [Sifted insertion (take-home 3)](../exercises/practice/take-home-exam/3/SiftedInsertion.java)
+- [Java insertion sort](../code/java/lecture-examples/algorithm-analysis/InsertionSort/) · [Python insertion sort](../code/python/reference/sorting/insertion-sort/) · [Python week 1 coursework](../code/python/coursework/week01/)
+
 ---
 
-Your own notes for this week go in `terms/<your-term>/notes/week-01.md`, not here.
 This file is the shared plan — improve it if the course changes, but keep it general.
+Personal notes go below, one `## Notes — <Name> (<term>)` section per person.
+
+## Notes — Efe (2026-2027 Fall)
+
+### Lecture
+<!-- What was actually covered, and what the lecturer emphasised. -->
+
+### Worked out by hand
+<!-- Derivations, proofs, traced algorithms. -->
+
+### Questions
+<!-- Unclear things. Ask, then answer them here. -->
+
+### Exam-worthy
+<!-- Formulas, conditions, algorithm steps, pitfalls. -->
+
+## Notes — unknown student (undated)
+
+### Algorithm
+
+A sequence of computational steps that transform the input to the desired output.
+
+- An algorightm must be halt.
+
+- Algorithms must be:
+    * fast
+    * use little memory
+    * correct
+
+- Two things affect the running times: 
+    - input size.
+    - state / position of the input.
+        * worst, avarage or best case depends on it.
+#### Sorting problem
+
+##### Insertion sort
+- make sorted proviously iterated part.

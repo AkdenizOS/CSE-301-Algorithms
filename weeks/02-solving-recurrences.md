@@ -30,7 +30,30 @@
 - [ ] Textbook section read
 - [ ] Exercises done
 
+## From past terms
+
+**Slides (2025-2026 Fall)**
+- [lecture03.pdf](../resources/2025-2026-fall/slides/lecture03.pdf) — solving recurrences
+
+**Past exam questions**
+- [2019-2020 Q2](../exams/2019-2020/questions-Q2.jfif) — `T(n) = T(√n) + 1` solved by iteration
+- [Bilkent CS473 — recurrence relations](../resources/bilkent/Recurrence%20Relations_cs473.final_2.pdf) · [asymptotics and recurrences (make-up)](../resources/bilkent/asymptotic_recurrence_cs473.makeup_1.pdf)
+
 ---
 
-Your own notes for this week go in `terms/<your-term>/notes/week-02.md`, not here.
 This file is the shared plan — improve it if the course changes, but keep it general.
+Personal notes go below, one `## Notes — <Name> (<term>)` section per person.
+
+## Notes — Efe (2026-2027 Fall)
+
+### Lecture
+<!-- What was actually covered, and what the lecturer emphasised. -->
+
+### Worked out by hand
+<!-- Derivations, proofs, traced algorithms. -->
+
+### Questions
+<!-- Unclear things. Ask, then answer them here. -->
+
+### Exam-worthy
+<!-- Formulas, conditions, algorithm steps, pitfalls. -->

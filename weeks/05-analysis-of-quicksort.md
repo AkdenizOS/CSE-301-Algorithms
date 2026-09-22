@@ -30,7 +30,34 @@
 - [ ] Textbook section read
 - [ ] Exercises done
 
+## From past terms
+
+**Slides (2025-2026 Fall)**
+- [lecture06a.pdf](../resources/2025-2026-fall/slides/lecture06a.pdf) — analysis of quicksort
+- [lecture06b.pdf](../resources/2025-2026-fall/slides/lecture06b.pdf) — randomized quicksort
+
+**Past exam questions**
+- [Undated final, Q1(b)](../exams/undated/final-transcribed.md) — best, worst and average case of a randomized SlowSort
+- [2019-2020 Q3](../exams/2019-2020/questions-Q3.txt) — worst-case `O(n lg n)` quicksort with a median pivot
+
+**Code**
+- [RandomizedHoareQuickSort.java](../code/java/lecture-examples/algorithm-analysis/QuickSort/RandomizedHoareQuickSort.java) · [RandomizedLomutoQuickSort.java](../code/java/lecture-examples/algorithm-analysis/QuickSort/RandomizedLomutoQuickSort.java)
+
 ---
 
-Your own notes for this week go in `terms/<your-term>/notes/week-05.md`, not here.
 This file is the shared plan — improve it if the course changes, but keep it general.
+Personal notes go below, one `## Notes — <Name> (<term>)` section per person.
+
+## Notes — Efe (2026-2027 Fall)
+
+### Lecture
+<!-- What was actually covered, and what the lecturer emphasised. -->
+
+### Worked out by hand
+<!-- Derivations, proofs, traced algorithms. -->
+
+### Questions
+<!-- Unclear things. Ask, then answer them here. -->
+
+### Exam-worthy
+<!-- Formulas, conditions, algorithm steps, pitfalls. -->

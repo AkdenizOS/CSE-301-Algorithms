@@ -31,7 +31,28 @@
 - [ ] Textbook section read
 - [ ] Exercises done
 
+## From past terms
+
+**Past exam questions**
+- [EECS 340 DFS quiz](../exams/practice/Example1.pdf) (cross edges) · [second DFS quiz](../exams/practice/Example4.pdf) (back edges)
+- [DFS run questions](../exams/practice/Example2.pdf) — tree edges, descendants, topological order
+- [EECS 340 assignment 7](../exams/practice/Example3.pdf) — DFS on a team-ranking graph
+
 ---
 
-Your own notes for this week go in `terms/<your-term>/notes/week-14.md`, not here.
 This file is the shared plan — improve it if the course changes, but keep it general.
+Personal notes go below, one `## Notes — <Name> (<term>)` section per person.
+
+## Notes — Efe (2026-2027 Fall)
+
+### Lecture
+<!-- What was actually covered, and what the lecturer emphasised. -->
+
+### Worked out by hand
+<!-- Derivations, proofs, traced algorithms. -->
+
+### Questions
+<!-- Unclear things. Ask, then answer them here. -->
+
+### Exam-worthy
+<!-- Formulas, conditions, algorithm steps, pitfalls. -->

@@ -31,7 +31,33 @@
 - [ ] Textbook section read
 - [ ] Exercises done
 
+## From past terms
+
+**Slides (2025-2026 Fall)**
+- [lecture05.pdf](../resources/2025-2026-fall/slides/lecture05.pdf) — quicksort
+
+**Past exam questions**
+- [Undated final, Q1(a)](../exams/undated/final-transcribed.md) — insertion, merge and Hoare quicksort when all elements are equal
+
+**Exercises and code**
+- [Hungarian Folk Dance](../exercises/algorithm-analysis/version-1/HungarianFolkDance/) — the quicksort danced in the video ([version 2](../exercises/algorithm-analysis/version-2/HungarianFolkDance/), [take-home 2](../exercises/practice/take-home-exam/2/Hungarian.java), [coursework](../code/java/coursework/hungarian-quicksort/))
+- [Java quicksort (Hoare, Lomuto)](../code/java/lecture-examples/algorithm-analysis/QuickSort/) · [Python quicksort](../code/python/reference/sorting/quick/)
+
 ---
 
-Your own notes for this week go in `terms/<your-term>/notes/week-04.md`, not here.
 This file is the shared plan — improve it if the course changes, but keep it general.
+Personal notes go below, one `## Notes — <Name> (<term>)` section per person.
+
+## Notes — Efe (2026-2027 Fall)
+
+### Lecture
+<!-- What was actually covered, and what the lecturer emphasised. -->
+
+### Worked out by hand
+<!-- Derivations, proofs, traced algorithms. -->
+
+### Questions
+<!-- Unclear things. Ask, then answer them here. -->
+
+### Exam-worthy
+<!-- Formulas, conditions, algorithm steps, pitfalls. -->

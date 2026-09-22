@@ -30,7 +30,27 @@
 - [ ] Textbook section read
 - [ ] Exercises done
 
+## From past terms
+
+**Past exam questions**
+- [MIT 6.046 practice quiz 2](../exams/practice/quiz2_practice.pdf) — modified Bellman-Ford
+- [Practice final solutions](../exams/practice/final_sol.pdf) — Prim, Bellman-Ford, reweighting true/false
+
 ---
 
-Your own notes for this week go in `terms/<your-term>/notes/week-13.md`, not here.
 This file is the shared plan — improve it if the course changes, but keep it general.
+Personal notes go below, one `## Notes — <Name> (<term>)` section per person.
+
+## Notes — Efe (2026-2027 Fall)
+
+### Lecture
+<!-- What was actually covered, and what the lecturer emphasised. -->
+
+### Worked out by hand
+<!-- Derivations, proofs, traced algorithms. -->
+
+### Questions
+<!-- Unclear things. Ask, then answer them here. -->
+
+### Exam-worthy
+<!-- Formulas, conditions, algorithm steps, pitfalls. -->
