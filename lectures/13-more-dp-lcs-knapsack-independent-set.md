@@ -1,12 +1,13 @@
-# Week 10 — Dynamic Programming II
+# Lecture 13 — More Dynamic Programming: LCS, Knapsack, Independent Set
 
-> Topic: *Dynamic Programming*
+> Stanford CS161 Winter 2026, lecture 13: *More Dynamic Programming: LCS, Knapsack, Independent Set* · [lecture page](https://stanford-cs161.github.io/winter2026/lectures/#lecture-13-more-dynamic-programming-lcs-knapsack-independent-set)
 
-**Previous:** [Week 9](09-dynamic-programming-i.md) · **Next:** [Week 11](11-greedy-algorithms.md)
+**Previous:** [Lecture 12](12-dp-bellman-ford-and-floyd-warshall.md) · **Next:** [Lecture 14](14-greedy-algorithms.md)
 
 ## Goals
 - Apply DP to LCS and optimal BSTs.
 - Compare DP against greedy on the same problem.
+- Solve maximum-weight independent set on a path/tree by DP.
 
 ## Key concepts
 - **Longest common subsequence**: `Θ(mn)` table, backtrack for the subsequence itself.
@@ -14,10 +15,18 @@
 - **0-1 knapsack** is DP; **fractional knapsack** is greedy — the difference is the exam question.
 - Longest increasing subsequence, coin change, edit distance as the standard extras.
 - Space optimization: keeping only the last row.
+- **Max-weight independent set** on a path: `A[i] = max(A[i−1], A[i−2] + w_i)`.
 
 ## Reading
 
-- [CLRS — Ch. 15.4-15.5 (LCS, optimal BSTs)](../resources/books/clrs-introduction-to-algorithms-3e.pdf#page=380)
+- [CLRS — Ch. 15.4 (longest common subsequence)](../resources/books/clrs-introduction-to-algorithms-3e.pdf#page=411)
+- *Algorithms Illuminated* Part III — 16
+
+## CS161 resources
+
+- Lecture notes: [PDF](https://stanford-cs161.github.io/winter2026/assets/files/lecture13-notes.pdf)
+- Slides: [PDF](https://stanford-cs161.github.io/winter2026/assets/files/Lecture13.pdf)
+- Concept check questions: [Interactive SVG](https://stanford-cs161.github.io/winter2025-bank/dp2.svg) [Solved PDF](https://stanford-cs161.github.io/winter2025-bank/dp2.pdf)
 
 ## Practice
 - [ ] Implement LCS with backtracking
@@ -25,9 +34,12 @@
 - [ ] Compare with the Java implementations in [`code/java`](../code/java/)
 
 ## Checklist
+- [ ] Pre-lecture exercise done
 - [ ] Lecture attended
-- [ ] Lab done
 - [ ] Textbook section read
+- [ ] Notebook done
+- [ ] Concept check done
+- [ ] Lab done
 - [ ] Exercises done
 
 ## From past terms

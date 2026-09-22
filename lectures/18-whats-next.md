@@ -1,23 +1,26 @@
-# Week 7 — No Lecture — Cumhuriyet Bayramı
+# Lecture 18 — What's Next?
 
-> Topic: *Cumhuriyet Bayramı*
+> Stanford CS161 Winter 2026, lecture 18: *What's next?* · [lecture page](https://stanford-cs161.github.io/winter2026/lectures/#lecture-18-what-s-next)
 
-**Previous:** [Week 6](06-medians-and-order-statistics.md) · **Next:** [Week 8](08-midterm-week.md)
+**Previous:** [Lecture 17](17-stable-matchings-and-gale-shapley.md)
 
 ## Goals
-- Catch up. This is the buffer week before the midterm.
+- See where the course material leads next.
 
-## Key concepts
-- No new material in Fall 2025. Confirm against the current term's syllabus.
+## CS161 resources
+
+- Slides: [PDF](https://stanford-cs161.github.io/winter2026/assets/files/Lecture18.pdf)
 
 ## Practice
-- [ ] Rework everything from weeks 1-6
-- [ ] Start on past midterms in [exams/](../exams/README.md)
+- [ ] Review the whole course before the final
 
 ## Checklist
+- [ ] Pre-lecture exercise done
 - [ ] Lecture attended
-- [ ] Lab done
 - [ ] Textbook section read
+- [ ] Notebook done
+- [ ] Concept check done
+- [ ] Lab done
 - [ ] Exercises done
 
 ---

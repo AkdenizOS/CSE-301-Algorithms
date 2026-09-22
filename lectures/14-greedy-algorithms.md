@@ -1,8 +1,8 @@
-# Week 11 — Greedy Algorithms
+# Lecture 14 — Greedy Algorithms
 
-> Topic: *Greedy Algorithms*
+> Stanford CS161 Winter 2026, lecture 14: *Greedy Algorithms* · [lecture page](https://stanford-cs161.github.io/winter2026/lectures/#lecture-14-greedy-algorithms)
 
-**Previous:** [Week 10](10-dynamic-programming-ii.md) · **Next:** [Week 12](12-graphs-i.md)
+**Previous:** [Lecture 13](13-more-dp-lcs-knapsack-independent-set.md) · **Next:** [Lecture 15](15-minimum-spanning-trees.md)
 
 ## Goals
 - Prove a greedy choice is safe.
@@ -18,7 +18,16 @@
 
 ## Reading
 
-- [CLRS — Ch. 16 (greedy algorithms)](../resources/books/clrs-introduction-to-algorithms-3e.pdf#page=435)
+- [CLRS — Ch. 16.1-16.3 (activity selection, greedy strategy, Huffman codes)](../resources/books/clrs-introduction-to-algorithms-3e.pdf#page=436)
+- *Algorithms Illuminated* Part III — 13, 14
+
+## CS161 resources
+
+- Pre-lecture exercise: [PDF](https://stanford-cs161.github.io/winter2026/assets/files/lecture14-pre.pdf)
+- Lecture notes: [PDF](https://stanford-cs161.github.io/winter2026/assets/files/lecture14-notes.pdf)
+- Slides: [PDF](https://stanford-cs161.github.io/winter2026/assets/files/Lecture14.pdf)
+- Python notebook: [Colab](http://colab.research.google.com/github/stanford-cs161/winter2025-extra/blob/colab/lecture14_greedy.ipynb) [Zip](https://stanford-cs161.github.io/winter2025-extra/lecture14_greedy.zip)
+- Concept check questions: [Interactive SVG](https://stanford-cs161.github.io/winter2025-bank/greedy.svg) [Solved PDF](https://stanford-cs161.github.io/winter2025-bank/greedy.pdf)
 
 ## Practice
 - [ ] Prove activity selection's greedy choice with an exchange argument
@@ -26,9 +35,12 @@
 - [ ] CLRS 16.1, 16.2, 16.3 exercises
 
 ## Checklist
+- [ ] Pre-lecture exercise done
 - [ ] Lecture attended
-- [ ] Lab done
 - [ ] Textbook section read
+- [ ] Notebook done
+- [ ] Concept check done
+- [ ] Lab done
 - [ ] Exercises done
 
 ## From past terms

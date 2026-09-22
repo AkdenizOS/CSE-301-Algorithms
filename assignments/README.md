@@ -37,7 +37,7 @@ Student work whose term could not be determined. Kept rather than guessed at.
 | [`scans-2023/`](undated-unattributed/scans-2023/) | Photographed notes | Dated 2023-11-16 |
 
 An undated student's week 1 notes are in
-[`../weeks/01-analysing-and-designing-algorithms.md`](../weeks/01-analysing-and-designing-algorithms.md#notes--unknown-student-undated).
+[`../lectures/02-asymptotics-and-mergesort.md`](../lectures/02-asymptotics-and-mergesort.md#notes--unknown-student-undated).
 
 Student numbers encode the year of entry, not the year the course was taken, so
 they are a hint and nothing more. If you know which term any of this belongs to,

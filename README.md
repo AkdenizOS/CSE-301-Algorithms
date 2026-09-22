@@ -12,8 +12,9 @@ here too — see [Taking notes](#taking-notes).
 
 ## How to study with this repository
 
-**1. Start from the week you are in.** [`weeks/`](weeks/) has one note per week,
-built from the official course outline. Each note lists the goals, the key concepts
+**1. Start from the lecture you are at.** [`lectures/`](lectures/) has one file per
+lecture, in the order of [Stanford CS161 Winter 2026](https://stanford-cs161.github.io/winter2026/lectures/),
+which the 2026-2027 course follows (see the [student guide](resources/2026-2027-fall/Algorithms_Student_Guide.pdf)). Each note lists the goals, the key concepts
 with their actual definitions, what to read, and what to practice — and, under
 `## From past terms`, the slides, labs, exam questions and code from earlier years
 that cover the same topic.
@@ -45,7 +46,7 @@ Python versions of nearly every algorithm in the course, and
 ```
 README.md        This page
 course-info.md   Resource map (CLRS page offsets), Fall 2025-2026 outline, pseudocode convention, glossary
-weeks/NN-*.md    One file per week: the shared plan on top, links to past-term material, everyone's notes below
+lectures/NN-*.md One file per CS161 lecture (1-18): the shared plan and CS161 links on top, past-term material, everyone's notes below
 exams/           Past papers by academic year (2019-2020 … 2025-2026, undated), practice/ sets, prep/ analyses
 resources/       books/, bilkent/, lecture-notes/, and resources/<term>/ for what an instructor issued that term
 code/            Java and Python implementations (java/, python/)
@@ -77,7 +78,7 @@ changed, fix it there so the next person gets the corrected version.
 
 | What | Who edits it | When |
 |------|-------------|------|
-| Top of `weeks/NN-*.md` (goals, reading, practice, from past terms) | **anyone** | Only when the course itself changes — a new topic, a better reading, a correction. Never for personal notes. |
+| Top of `lectures/NN-*.md` (goals, reading, practice, from past terms) | **anyone** | Only when the course itself changes — a new topic, a better reading, a correction. Never for personal notes. |
 | `## Notes — <you>` in a week file | **only you** | Every week. This is your notebook. |
 | `course-info.md`, `exams/README.md` | **anyone** | When you learn something durable: a new exam pattern, a better source. |
 | `assignments/<term>-<you>/` | **only you** | Your assignments, projects, submissions. Use a lowercase, hyphenated name — `2026-2027-fall-efe-kurucay`, not `Efe Kuruçay`. Material from a term whose author is not known goes in `assignments/<term>-unattributed/`. |
@@ -88,8 +89,8 @@ Two students in different years never touch the same file except to improve the
 shared plan — which is the point.
 
 If you take the course in a new term, add a row to the table below naming the
-instructor and the dates, and if the course outline changed, update `weeks/` — that
-is the shared plan and it should reflect reality. Keep `weeks/` and
+instructor and the dates, and if the course outline changed, update `lectures/` — that
+is the shared plan and it should reflect reality. Keep `lectures/` and
 `course-info.md` general; keep anything personal, dated or term-specific in
 `assignments/<term>-<you>/` or `resources/<term>/`.
 
@@ -99,14 +100,14 @@ is the shared plan and it should reflect reality. Keep `weeks/` and
 |------|-----------|-------------|
 | Fall 2025-2026 | Hüseyin Gökhan Akçay | [resources/2025-2026-fall/](resources/2025-2026-fall/): syllabus, 12 lecture slide decks plus `dp_examples.pdf` (`excluded-from-2025-final/` holds lecture08 and lecture09, dropped from the final's scope), lab questions for 4 groups plus pre-lab exercises, biweekly contest, standalone exercises. Outline and grading in [course-info.md](course-info.md#fall-2025-2026-as-taught). Graded final pages in [exams/2025-2026/](exams/2025-2026/). Efe's contest assignment with Burak Yalçın in [assignments/2025-2026-fall-efe-kurucay/](assignments/2025-2026-fall-efe-kurucay/). |
 | Fall 2026-2027 | TBD — fill in during week 1 | Schedule TBD · Midterm TBD · Final TBD. Student guide in [resources/2026-2027-fall/](resources/2026-2027-fall/). Efe — notes in every week file. Exam papers from this term go in `exams/2026-2027/`. |
-| undated | unknown | Student submissions, reference homeworks, an analysis assignment and 2023 scans in [assignments/undated-unattributed/](assignments/undated-unattributed/) — see [assignments/README.md](assignments/README.md). One student's week 1 notes are in [weeks/01](weeks/01-analysing-and-designing-algorithms.md#notes--unknown-student-undated). Undated exam paper in [exams/undated/](exams/undated/). |
+| undated | unknown | Student submissions, reference homeworks, an analysis assignment and 2023 scans in [assignments/undated-unattributed/](assignments/undated-unattributed/) — see [assignments/README.md](assignments/README.md). One student's week 1 notes are in [lectures/02](lectures/02-asymptotics-and-mergesort.md#notes--unknown-student-undated). Undated exam paper in [exams/undated/](exams/undated/). |
 
 
 ## Textbook
 
 Primary: **CLRS, _Introduction to Algorithms_, 3rd edition** —
 [`resources/books/clrs-introduction-to-algorithms-3e.pdf`](resources/books/clrs-introduction-to-algorithms-3e.pdf).
-Every reading link in `weeks/` points into it. A Turkish translation and the 4th
+Every CLRS reading link in `lectures/` points into it, at the exact section page. A Turkish translation and the 4th
 edition are in the same folder, plus Sedgewick-Wayne and Kleinberg-Tardos.
 
 ## Grading (Fall 2026-2027)
@@ -131,12 +132,13 @@ From the instructor's [student guide](resources/2026-2027-fall/Algorithms_Studen
 Fall 2025-2026 used Lab 25% · Assignment 10% · Midterm 25% · Final 40% — see
 [course-info.md](course-info.md#fall-2025-2026-as-taught).
 
-The topic list in [`weeks/`](weeks/) is derived from the Fall 2025 course outline
-(the most recent one on record, in
-[`course-info.md`](course-info.md#fall-2025-2026-as-taught) and
-[`resources/2025-2026-fall/syllabus.pdf`](resources/2025-2026-fall/syllabus.pdf)). If
-your term's outline differs, update `weeks/` — it is the shared plan and should
-reflect reality.
+The lecture list in [`lectures/`](lectures/) follows Stanford CS161 Winter 2026, as the
+2026-2027 student guide says. Its midterm comes after lecture 10. The Fall 2025
+outline (14 weeks, in [`course-info.md`](course-info.md#fall-2025-2026-as-taught) and
+[`resources/2025-2026-fall/syllabus.pdf`](resources/2025-2026-fall/syllabus.pdf)) covered a
+subset of the same topics; its material is linked from each lecture under
+`## From past terms`. If your term's order differs, update `lectures/` — it is the
+shared plan and should reflect reality.
 
 ## Academic integrity
 

@@ -1,12 +1,13 @@
-# Week 9 — Dynamic Programming I
+# Lecture 12 — Dynamic Programming: Bellman-Ford and Floyd-Warshall
 
-> Topic: *Dynamic Programming*
+> Stanford CS161 Winter 2026, lecture 12: *Dynamic Programming: Bellman-Ford and Floyd-Warshall* · [lecture page](https://stanford-cs161.github.io/winter2026/lectures/#lecture-12-dynamic-programming-bellman-ford-and-floyd-warshall)
 
-**Previous:** [Week 8](08-midterm-week.md) · **Next:** [Week 10](10-dynamic-programming-ii.md)
+**Previous:** [Lecture 11](11-dijkstra-and-bellman-ford.md) · **Next:** [Lecture 13](13-more-dp-lcs-knapsack-independent-set.md)
 
 ## Goals
 - Recognize optimal substructure and overlapping subproblems.
 - Write both a top-down memoized and a bottom-up tabulated solution.
+- See Bellman-Ford and Floyd-Warshall as dynamic programs.
 
 ## Key concepts
 - The two hallmarks: **optimal substructure** and **overlapping subproblems**. Both must hold.
@@ -14,20 +15,36 @@
 - **Rod cutting**: `r_n = max(p_i + r_{n−i})`.
 - **Matrix-chain multiplication**: `Θ(n³)` time, `Θ(n²)` space; reconstructing the parenthesization.
 - Reconstructing the solution, not just its value — keep a choice table.
+- **Bellman-Ford as DP**: `d^(k)[v]` = shortest path using at most `k` edges.
+- **Floyd-Warshall**: `D^(k)[i][j]` = shortest `i→j` path through vertices `1..k`; `Θ(V³)` all-pairs.
 
 ## Reading
 
-- [CLRS — Ch. 15 (dynamic programming)](../resources/books/clrs-introduction-to-algorithms-3e.pdf#page=380)
+- [CLRS — Ch. 15.1 (rod cutting)](../resources/books/clrs-introduction-to-algorithms-3e.pdf#page=381)
+- [CLRS — Ch. 25.2 (Floyd-Warshall)](../resources/books/clrs-introduction-to-algorithms-3e.pdf#page=714)
+- *Algorithms Illuminated* Part III — 18
+
+## CS161 resources
+
+- Pre-lecture exercise: [PDF](https://stanford-cs161.github.io/winter2026/assets/files/lecture12-pre.pdf)
+- Lecture notes: [PDF](https://stanford-cs161.github.io/winter2026/assets/files/lecture12-notes.pdf)
+- Slides: [PDF](https://stanford-cs161.github.io/winter2026/assets/files/Lecture12.pdf)
+- Python notebook: [Colab](http://colab.research.google.com/github/stanford-cs161/winter2025-extra/blob/colab/lecture12_dp.ipynb) [Zip](https://stanford-cs161.github.io/winter2025-extra/lecture12_dp.zip)
+- Concept check questions: [Interactive SVG](https://stanford-cs161.github.io/winter2025-bank/dp1.svg) [Solved PDF](https://stanford-cs161.github.io/winter2025-bank/dp1.pdf)
 
 ## Practice
 - [ ] Implement rod cutting three ways: naive, memoized, tabulated; time all three
 - [ ] Matrix-chain by hand on 5 matrices
 - [ ] CLRS 15.1, 15.2 exercises
+- [ ] Run Floyd-Warshall by hand on a 4-vertex graph
 
 ## Checklist
+- [ ] Pre-lecture exercise done
 - [ ] Lecture attended
-- [ ] Lab done
 - [ ] Textbook section read
+- [ ] Notebook done
+- [ ] Concept check done
+- [ ] Lab done
 - [ ] Exercises done
 
 ## From past terms

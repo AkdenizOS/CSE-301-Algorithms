@@ -8,7 +8,7 @@ Resource map, the Fall 2025-2026 outline, the pseudocode convention and a Turkis
 
 | File | Book | Use |
 |------|------|-----|
-| [`clrs-introduction-to-algorithms-3e.pdf`](resources/books/clrs-introduction-to-algorithms-3e.pdf) | CLRS 3rd ed. | **Primary.** Every reading link in `weeks/` points here |
+| [`clrs-introduction-to-algorithms-3e.pdf`](resources/books/clrs-introduction-to-algorithms-3e.pdf) | CLRS 3rd ed. | **Primary.** Every reading link in `lectures/` points here |
 | [`clrs-introduction-to-algorithms-3e-tr.pdf`](resources/books/clrs-introduction-to-algorithms-3e-tr.pdf) | CLRS 3rd ed., Turkish | Same book if the English is slowing you down |
 | [`clrs-introduction-to-algorithms-4e.pdf`](resources/books/clrs-introduction-to-algorithms-4e.pdf) | CLRS 4th ed. | Newer; chapter numbers differ from the course outline |
 | [`clrs-3e-chapters/`](resources/books/clrs-3e-chapters/) | CLRS 3rd ed., split by part | Lighter files when you only need one part |
@@ -16,27 +16,34 @@ Resource map, the Fall 2025-2026 outline, the pseudocode convention and a Turkis
 | [`kleinberg-tardos-algorithm-design.pdf`](resources/books/kleinberg-tardos-algorithm-design.pdf) | Kleinberg & Tardos | Suggested text; strong on design and proofs |
 | [`abdul-bari-algorithms-tr-notes.pdf`](resources/books/abdul-bari-algorithms-tr-notes.pdf) | Abdul Bari lecture notes, Turkish | Companion to the popular video course |
 
-### Week → CLRS chapter
+### Lecture → CLRS chapter
 
-Links use the PDF's own bookmarks, so the pages are exact.
+Links use the PDF's own pages (printed page + 21), so the pages are exact.
 
-| Week | Topic | CLRS 3e |
-|------|-------|---------|
-| 1 | Analysing and designing algorithms | Ch. 1, 2, 3 |
-| 2 | Solving recurrences | Ch. 4.3-4.6 |
-| 3 | Divide and conquer | Ch. 4.1-4.2 |
-| 4 | Quicksort | Ch. 7.1-7.3 |
-| 5 | Analysis of quicksort | Ch. 7.4, Ch. 5 |
-| 6 | Medians and order statistics | Ch. 9 |
-| 9-10 | Dynamic programming | Ch. 15 |
-| 11 | Greedy algorithms | Ch. 16 |
-| 12 | Graphs: representations, BFS | Ch. 22.1-22.2 |
-| 13 | Graphs: MST, shortest paths | Ch. 23, 24 |
-| 14 | DFS, topological sort, SCC | Ch. 22.3-22.5 |
+| Lecture | Topic | CLRS 3e |
+|---------|-------|---------|
+| 1 | Why are you here? (Karatsuba) | — |
+| 2 | Asymptotics, merge sort | Ch. 1, 2, 3, 4.1-4.2 |
+| 3 | Recurrences, master theorem | Ch. 4.3-4.5 |
+| 4 | Median and selection | Ch. 9 |
+| 5 | Randomized algorithms, quicksort | Ch. 5.1-5.3, 7 |
+| 6 | Bucket sort, sorting lower bounds | Ch. 8.1-8.2 |
+| 7 | BSTs, red-black trees | Ch. 12.1-12.3, 13 |
+| 8 | Hashing | Ch. 11 |
+| 9 | Graphs, BFS, DFS | Ch. 22.1-22.4 |
+| 10 | Strongly connected components | Ch. 22.5 |
+| 11 | Dijkstra, Bellman-Ford | Ch. 24.1, 24.3 |
+| 12 | DP: Bellman-Ford, Floyd-Warshall | Ch. 15.1, 25.2 |
+| 13 | More DP: LCS, knapsack, independent set | Ch. 15.4 |
+| 14 | Greedy algorithms | Ch. 16.1-16.3 |
+| 15 | Minimum spanning trees | Ch. 23 |
+| 16 | Max-flow, Ford-Fulkerson | Ch. 26.1-26.3 |
+| 17 | Stable matching | Kleinberg & Tardos 1.1 |
+| 18 | What's next | — |
 
 Chapter start pages in the 3e PDF: Ch1 26 · Ch2 37 · Ch3 64 · Ch4 86 · Ch5 135 ·
 Ch6 172 · Ch7 191 · Ch8 212 · Ch9 234 · Ch15 380 · Ch16 435 · Ch17 472 · Ch22 610 ·
-Ch23 645 · Ch24 664.
+Ch11 274 · Ch12 307 · Ch13 329 · Ch23 645 · Ch24 664 · Ch25 705 · Ch26 729.
 
 ### Other material
 
@@ -95,7 +102,27 @@ Slides, announcements and homework were distributed through Microsoft Teams.
 | 13 | Dec 10 | Graphs |
 | 14 | Dec 17 | DFS and topological sort |
 
-The shared plan in [`weeks/`](weeks/) is derived from this outline.
+#### Fall 2025 week → CLRS chapter
+
+Links use the PDF's own bookmarks, so the pages are exact.
+
+| Week | Topic | CLRS 3e |
+|------|-------|---------|
+| 1 | Analysing and designing algorithms | Ch. 1, 2, 3 |
+| 2 | Solving recurrences | Ch. 4.3-4.6 |
+| 3 | Divide and conquer | Ch. 4.1-4.2 |
+| 4 | Quicksort | Ch. 7.1-7.3 |
+| 5 | Analysis of quicksort | Ch. 7.4, Ch. 5 |
+| 6 | Medians and order statistics | Ch. 9 |
+| 9-10 | Dynamic programming | Ch. 15 |
+| 11 | Greedy algorithms | Ch. 16 |
+| 12 | Graphs: representations, BFS | Ch. 22.1-22.2 |
+| 13 | Graphs: MST, shortest paths | Ch. 23, 24 |
+| 14 | DFS, topological sort, SCC | Ch. 22.3-22.5 |
+
+This outline was the shared plan until Fall 2026-2027, when the course moved to the
+Stanford CS161 lecture order in [`lectures/`](lectures/). Week 7 had no lecture
+(Cumhuriyet Bayramı) and served as the catch-up week before the midterm in week 8.
 
 ## Psudo-code convention
 Example psudocode

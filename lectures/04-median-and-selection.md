@@ -1,8 +1,8 @@
-# Week 6 — Medians and Order Statistics
+# Lecture 4 — Median and Selection
 
-> Topic: *Medians and Order Statistics*
+> Stanford CS161 Winter 2026, lecture 4: *Median and Selection* · [lecture page](https://stanford-cs161.github.io/winter2026/lectures/#lecture-4-median-and-selection)
 
-**Previous:** [Week 5](05-analysis-of-quicksort.md) · **Next:** [Week 7](07-holiday.md)
+**Previous:** [Lecture 3](03-recurrences-and-master-theorem.md) · **Next:** [Lecture 5](05-randomized-algorithms-and-quicksort.md)
 
 ## Goals
 - Find the i-th smallest element in expected linear time.
@@ -18,6 +18,15 @@
 ## Reading
 
 - [CLRS — Ch. 9 (medians and order statistics)](../resources/books/clrs-introduction-to-algorithms-3e.pdf#page=234)
+- *Algorithms Illuminated* Part I — 6
+
+## CS161 resources
+
+- Pre-lecture exercise: [PDF](https://stanford-cs161.github.io/winter2026/assets/files/lecture4-pre.pdf)
+- Lecture notes: [PDF](https://stanford-cs161.github.io/winter2026/assets/files/lecture4-notes.pdf)
+- Slides: [PDF](https://stanford-cs161.github.io/winter2026/assets/files/lecture4-slides.pdf) [PowerPoint](https://stanford-cs161.github.io/winter2026/assets/files/lecture4-slides.pptx)
+- Python notebook: [Colab](http://colab.research.google.com/github/stanford-cs161/winter2025-extra/blob/colab/lecture4_select.ipynb) [Zip](https://stanford-cs161.github.io/winter2025-extra/lecture4_select.zip)
+- Concept check questions: [Interactive SVG](https://stanford-cs161.github.io/winter2025-bank/select.svg) [Solved PDF](https://stanford-cs161.github.io/winter2025-bank/select.pdf)
 
 ## Practice
 - [ ] Implement both selection algorithms and compare
@@ -25,9 +34,12 @@
 - [ ] CLRS 9.1, 9.2, 9.3 exercises
 
 ## Checklist
+- [ ] Pre-lecture exercise done
 - [ ] Lecture attended
-- [ ] Lab done
 - [ ] Textbook section read
+- [ ] Notebook done
+- [ ] Concept check done
+- [ ] Lab done
 - [ ] Exercises done
 
 ## From past terms

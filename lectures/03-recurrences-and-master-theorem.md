@@ -1,8 +1,8 @@
-# Week 2 — Solving Recurrences
+# Lecture 3 — Solving Recurrences and the Master Theorem
 
-> Topic: *Solving Recurrences*
+> Stanford CS161 Winter 2026, lecture 3: *Solving Recurrences and the Master Theorem* · [lecture page](https://stanford-cs161.github.io/winter2026/lectures/#lecture-3-solving-recurrences-and-the-master-theorem)
 
-**Previous:** [Week 1](01-analysing-and-designing-algorithms.md) · **Next:** [Week 3](03-divide-and-conquer.md)
+**Previous:** [Lecture 2](02-asymptotics-and-mergesort.md) · **Next:** [Lecture 4](04-median-and-selection.md)
 
 ## Goals
 - Solve a recurrence by substitution, recursion tree, and the master method.
@@ -18,16 +18,29 @@
 
 ## Reading
 
-- [CLRS — Ch. 4.3-4.6 (substitution, recursion tree, master method)](../resources/books/clrs-introduction-to-algorithms-3e.pdf#page=86)
+- [CLRS — Ch. 4.3 (substitution method)](../resources/books/clrs-introduction-to-algorithms-3e.pdf#page=104)
+- [CLRS — Ch. 4.4 (recursion tree)](../resources/books/clrs-introduction-to-algorithms-3e.pdf#page=109)
+- [CLRS — Ch. 4.5 (master method)](../resources/books/clrs-introduction-to-algorithms-3e.pdf#page=114)
+- *Algorithms Illuminated* Part I — 4
+
+## CS161 resources
+
+- Pre-lecture exercise: [PDF](https://stanford-cs161.github.io/winter2026/assets/files/lecture3-pre.pdf)
+- Lecture notes: [PDF](https://stanford-cs161.github.io/winter2026/assets/files/lecture3-notes.pdf)
+- Slides: [PDF](https://stanford-cs161.github.io/winter2026/assets/files/lecture3-slides.pdf) [PowerPoint](https://stanford-cs161.github.io/winter2026/assets/files/lecture3-slides.pptx)
+- Concept check questions: [Interactive SVG](https://stanford-cs161.github.io/winter2025-bank/recurrence.svg) [Solved PDF](https://stanford-cs161.github.io/winter2025-bank/recurrence.pdf)
 
 ## Practice
 - [ ] Solve 10 recurrences, at least 3 falling in a master-theorem gap
 - [ ] CLRS 4.3, 4.4, 4.5 exercises
 
 ## Checklist
+- [ ] Pre-lecture exercise done
 - [ ] Lecture attended
-- [ ] Lab done
 - [ ] Textbook section read
+- [ ] Notebook done
+- [ ] Concept check done
+- [ ] Lab done
 - [ ] Exercises done
 
 ## From past terms
